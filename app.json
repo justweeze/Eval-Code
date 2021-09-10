@@ -1,0 +1,42 @@
+{
+  "name": "Simple Telegram Code Evaluating Bot",
+  "description": "Telegram Bot Which Evaluate Various Language Codes On Bot Or via Inline Mode",
+  "repository": "https://github.com/its-leo-bitch/Eval-Code",
+  "logo": "https://telegra.ph/file/e76d40ed899c2abd87209.jpg",
+  "keywords":[
+    "Python",
+    "Piston-Engine",
+    "pyrogram",
+    "Code Evaluating Bot"
+    ],
+    "env": {
+        "APP_ID": {
+            "description": "Your APP ID From my.telegram.org ",
+            "value": ""
+         },
+         "API_HASH": {
+            "description": "Your API Hash From my.telegram.org",
+            "value": ""
+         },
+         "TOKEN": {
+            "description": "Your Bot Token From @BotFather",
+            "value": ""
+         },
+         "BOTUSERNAME": {
+            "description": "Telegram Bot Username Without @",
+            "value": ""
+         }
+      },
+      "buildpacks": [
+        {
+          "url": "heroku/python"
+        }
+      ],
+      "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}       
+
