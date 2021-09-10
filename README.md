@@ -106,7 +106,6 @@ Its me leo
 - python
 - python2
 - raku
-jkvkn
 - rockstar
 - ruby
 - rust
